@@ -116,3 +116,6 @@ For detailed setup information, see [SETUP_GUIDE.md](./SETUP_GUIDE.md).
 
 ## Reference
 https://github.com/kjetiljd/claude-code-over-github-copilot
+
+## Test
+https://youtu.be/EIWXkqn7-3o
