@@ -1,0 +1,16 @@
+# Core dependencies for OpenClaw + LiteLLM setup
+litellm[proxy]>=1.0.0
+psutil>=5.9.0
+requests>=2.31.0
+dnspython>=2.4.0
+pyyaml>=6.0
+
+# Optional for monitoring
+watchdog>=3.0.0
+
+# Database support for LiteLLM logging
+sqlite3; python_version>="3.8"
+
+# OpenClaw specific dependencies
+aiohttp>=3.8.0
+asyncio>=3.4.3

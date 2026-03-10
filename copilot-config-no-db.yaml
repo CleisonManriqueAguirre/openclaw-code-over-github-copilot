@@ -1,0 +1,28 @@
+model_list:
+  - model_name: gpt-4
+    litellm_params:
+      model: github_copilot/gpt-4
+      extra_headers: {"Editor-Version": "vscode/1.85.1", "Copilot-Integration-Id": "vscode-chat"}
+  - model_name: gpt-4o
+    litellm_params:
+      model: github_copilot/gpt-4o
+      extra_headers: {"Editor-Version": "vscode/1.85.1", "Copilot-Integration-Id": "vscode-chat"}
+  - model_name: claude-3-5-sonnet-20241022
+    litellm_params:
+      model: github_copilot/claude-3-5-sonnet-20241022
+      extra_headers: {"Editor-Version": "vscode/1.85.1", "Copilot-Integration-Id": "vscode-chat"}
+  - model_name: o1-preview
+    litellm_params:
+      model: github_copilot/o1-preview
+      extra_headers: {"Editor-Version": "vscode/1.85.1", "Copilot-Integration-Id": "vscode-chat"}
+  - model_name: o1-mini
+    litellm_params:
+      model: github_copilot/o1-mini
+      extra_headers: {"Editor-Version": "vscode/1.85.1", "Copilot-Integration-Id": "vscode-chat"}
+
+litellm_settings:
+  drop_params: true
+  # Disable database-dependent features
+  store_model_in_db: false
+
+# Don't include general_settings to avoid database requirement
