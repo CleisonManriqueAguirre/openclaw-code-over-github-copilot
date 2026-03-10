@@ -113,3 +113,6 @@ Additional models can be discovered using `make list-models`.
 - Use `make stop` to clean up all processes if needed
 
 For detailed setup information, see [SETUP_GUIDE.md](./SETUP_GUIDE.md).
+
+## Reference
+https://github.com/kjetiljd/claude-code-over-github-copilot
