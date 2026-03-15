@@ -8,9 +8,9 @@ pyyaml>=6.0
 # Optional for monitoring
 watchdog>=3.0.0
 
-# Database support for LiteLLM logging
-sqlite3; python_version>="3.8"
-
 # OpenClaw specific dependencies
 aiohttp>=3.8.0
 asyncio>=3.4.3
+
+# Telegram bot
+python-telegram-bot>=20.0

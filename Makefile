@@ -36,7 +36,7 @@ setup:
 		exit 1; \
 	fi
 	@echo "✓ Python version: $$($(PYENV_PY) --version)"
-	@if ! command -v nvm >/dev/null 2>&1; then \
+	@if [ ! -f "$$HOME/.nvm/nvm.sh" ]; then \
 		echo "❌ nvm not found. Please install nvm first:"; \
 		echo "   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash"; \
 		echo "   Then restart your terminal and run this command again."; \
